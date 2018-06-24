@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Registration of New User</description>
+   <name>Registration</name>
+   <tag>Sanity</tag>
+   <comment></comment>
+   <testCaseGuid>7361dc9e-369b-4d42-85c1-8adb918fb47b</testCaseGuid>
+</TestCaseEntity>

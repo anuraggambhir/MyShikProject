@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteLoginReg,Firefox 59.0,,2018-06-24 17:22:06,2018-06-24 17:22:15,8.536s,INCOMPLETE
+,,,,,,
+Test Cases/Login/LoginInvalid,Firefox 59.0,Check for login with invalid credentials,2018-06-24 17:22:07,2018-06-24 17:22:14,7.502s,PASSED
+openBrowser,Firefox 59.0,,2018-06-24 17:22:07,2018-06-24 17:22:11,3.496s,PASSED
+click,Firefox 59.0,,2018-06-24 17:22:11,2018-06-24 17:22:12,0.805s,PASSED
+setText,Firefox 59.0,,2018-06-24 17:22:12,2018-06-24 17:22:12,0.614s,PASSED
+setText,Firefox 59.0,,2018-06-24 17:22:12,2018-06-24 17:22:13,0.269s,PASSED
+click,Firefox 59.0,,2018-06-24 17:22:13,2018-06-24 17:22:13,0.374s,PASSED
+click,Firefox 59.0,,2018-06-24 17:22:13,2018-06-24 17:22:13,0.290s,PASSED
+closeBrowser,Firefox 59.0,,2018-06-24 17:22:13,2018-06-24 17:22:14,1.134s,PASSED
+,,,,,,
+Test Cases/Registration/Registration,Firefox 59.0,Registration of New User,2018-06-24 17:22:14,2018-06-24 17:22:15,0.393s,FAILED
+openBrowser,Firefox 59.0,,2018-06-24 17:22:15,2018-06-24 17:22:15,0.158s,FAILED

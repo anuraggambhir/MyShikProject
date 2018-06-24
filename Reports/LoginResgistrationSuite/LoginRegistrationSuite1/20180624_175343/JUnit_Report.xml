@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginRegistrationSuite1" time="59" tests="1" failures="1" errors="0">
+   <testsuite name="LoginRegistrationSuite1" tests="1" failures="1" errors="0" time="59" timestamp="2018-06-24 17:53:48" hostname="anurag.gambhir - ND0311119038941.Infoedge.com" id="Test Suites/LoginResgistrationSuite/LoginRegistrationSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Shiksha\\Shiksha\\Reports\\LoginResgistrationSuite\\LoginRegistrationSuite1\\20180624_175343"/>
+         <property name="logFiles" value="D:\\Shiksha\\Shiksha\\Reports\\LoginResgistrationSuite\\LoginRegistrationSuite1\\20180624_175343\\execution0.log"/>
+         <property name="attachments" value="D:\\Shiksha\\Shiksha\\Reports\\LoginResgistrationSuite\\LoginRegistrationSuite1\\20180624_175343\\1529843085870.png"/>
+         <property name="hostName" value="anurag.gambhir - ND0311119038941.Infoedge.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="d4d2b3f8-421f-49cf-8f49-d2f75790b076"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginInvalid" classname="Test Cases/Login/LoginInvalid" status="PASSED">
+         <system-out><![CDATA[2018-06-24 17:53:49 - [TEST_CASE][PASSED] - Test Cases/Login/LoginInvalid: Test Cases/Login/LoginInvalid
+
+2018-06-24 17:53:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.shiksha.com'
+
+2018-06-24 17:54:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.shiksha.com'
+
+2018-06-24 17:54:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Login/a_Login' is clicked on
+
+2018-06-24 17:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login/a_Login' is clicked on
+
+2018-06-24 17:54:16 - [TEST_STEP][PASSED] - setText: Text 'anuraggambhir58@yahoo.com' is set on object 'Object Repository/Login/Page_Login/input_email'
+
+2018-06-24 17:54:16 - [MESSAGE][PASSED] - Text 'anuraggambhir58@yahoo.com' is set on object 'Object Repository/Login/Page_Login/input_email'
+
+2018-06-24 17:54:16 - [TEST_STEP][PASSED] - setText: Text 'anurag881' is set on object 'Object Repository/Login/Page_Login/input_password'
+
+2018-06-24 17:54:17 - [MESSAGE][PASSED] - Text 'anurag881' is set on object 'Object Repository/Login/Page_Login/input_password'
+
+2018-06-24 17:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Login/a_Submit' is clicked on
+
+2018-06-24 17:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login/a_Submit' is clicked on
+
+2018-06-24 17:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Login/div_Email addressPlease enter' is clicked on
+
+2018-06-24 17:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login/div_Email addressPlease enter' is clicked on
+
+2018-06-24 17:54:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-24 17:54:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration/Registration" classname="Test Cases/Registration/Registration" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Registration/Page_Registration/a_Sign Up' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a href=&quot;javascript:void(0);&quot;> is not clickable at point (1322.1332702636719,57) because another element &lt;div class=&quot;Reglayer-bg&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ND0311119038941', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1948, moz:profile: C:\Users\anurag.gambhir\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4d2b3f8-421f-49cf-8f49-d2f75790b076)"/>
+         <system-out><![CDATA[2018-06-24 17:54:18 - [TEST_CASE][FAILED] - Test Cases/Registration/Registration: Test Cases/Registration/Registration FAILED because (of) Unable to click on object 'Object Repository/Registration/Page_Registration/a_Sign Up' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="javascript:void(0);"> is not clickable at point (1322.1332702636719,57) because another element <div class="Reglayer-bg"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ND0311119038941', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1948, moz:profile: C:\Users\anurag.gambhir\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4d2b3f8-421f-49cf-8f49-d2f75790b076)
+
+2018-06-24 17:54:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-24 17:54:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-24 17:54:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.shiksha.com/' successfully
+
+2018-06-24 17:54:37 - [MESSAGE][PASSED] - Navigate to 'https://www.shiksha.com/' successfully
+
+2018-06-24 17:54:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/a_Sign Up' is clicked on
+
+2018-06-24 17:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/a_Sign Up' is clicked on
+
+2018-06-24 17:54:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/div_Education_Stream' is clicked on
+
+2018-06-24 17:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/div_Education_Stream' is clicked on
+
+2018-06-24 17:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/span_Engineering' is clicked on
+
+2018-06-24 17:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/span_Engineering' is clicked on
+
+2018-06-24 17:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/div_Course_Type' is clicked on
+
+2018-06-24 17:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/div_Course_Type' is clicked on
+
+2018-06-24 17:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/label_BE_BTech' is clicked on
+
+2018-06-24 17:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/label_BE_BTech' is clicked on
+
+2018-06-24 17:54:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/a_Course_Done' is clicked on
+
+2018-06-24 17:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/a_Course_Done' is clicked on
+
+2018-06-24 17:54:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/div_Education_Type' is clicked on
+
+2018-06-24 17:54:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/div_Education_Type' is clicked on
+
+2018-06-24 17:54:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/label_Full_Time_Course' is clicked on
+
+2018-06-24 17:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/label_Full_Time_Course' is clicked on
+
+2018-06-24 17:54:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/a_Done' is clicked on
+
+2018-06-24 17:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/a_Done' is clicked on
+
+2018-06-24 17:54:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/a_Next' is clicked on
+
+2018-06-24 17:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/a_Next' is clicked on
+
+2018-06-24 17:54:42 - [TEST_STEP][PASSED] - setText: Text 'anuraggambhir58@yahoo.com' is set on object 'Object Repository/Registration/Page_Registration/input_email'
+
+2018-06-24 17:54:43 - [MESSAGE][PASSED] - Text 'anuraggambhir58@yahoo.com' is set on object 'Object Repository/Registration/Page_Registration/input_email'
+
+2018-06-24 17:54:43 - [TEST_STEP][PASSED] - setText: Text 'anurag' is set on object 'Object Repository/Registration/Page_Registration/input_firstName'
+
+2018-06-24 17:54:43 - [MESSAGE][PASSED] - Text 'anurag' is set on object 'Object Repository/Registration/Page_Registration/input_firstName'
+
+2018-06-24 17:54:43 - [TEST_STEP][PASSED] - setText: Text 'gambhir' is set on object 'Object Repository/Registration/Page_Registration/input_lastName'
+
+2018-06-24 17:54:43 - [MESSAGE][PASSED] - Text 'gambhir' is set on object 'Object Repository/Registration/Page_Registration/input_lastName'
+
+2018-06-24 17:54:43 - [TEST_STEP][PASSED] - setText: Text '9899920881' is set on object 'Object Repository/Registration/Page_Registration/input_mobile'
+
+2018-06-24 17:54:43 - [MESSAGE][PASSED] - Text '9899920881' is set on object 'Object Repository/Registration/Page_Registration/input_mobile'
+
+2018-06-24 17:54:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/div_residenceCityLocality_inpu' is clicked on
+
+2018-06-24 17:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/div_residenceCityLocality_inpu' is clicked on
+
+2018-06-24 17:54:44 - [TEST_STEP][PASSED] - setText: Text 'noida' is set on object 'Object Repository/Registration/Page_Registration/input_ssLayerSch'
+
+2018-06-24 17:54:45 - [MESSAGE][PASSED] - Text 'noida' is set on object 'Object Repository/Registration/Page_Registration/input_ssLayerSch'
+
+2018-06-24 17:54:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/Page_Registration/span_Noida' is clicked on
+
+2018-06-24 17:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/Page_Registration/span_Noida' is clicked on
+
+2018-06-24 17:54:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Registration/Page_Registration/a_Sign Up' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="javascript:void(0);"> is not clickable at point (1322.1332702636719,57) because another element <div class="Reglayer-bg"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ND0311119038941', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1948, moz:profile: C:\Users\anurag.gambhir\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4d2b3f8-421f-49cf-8f49-d2f75790b076)
+
+2018-06-24 17:54:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Registration/Page_Registration/a_Sign Up' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="javascript:void(0);"> is not clickable at point (1322.1332702636719,57) because another element <div class="Reglayer-bg"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ND0311119038941', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1948, moz:profile: C:\Users\anurag.gambhir\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4d2b3f8-421f-49cf-8f49-d2f75790b076)
+[[ATTACHMENT|D:\\Shiksha\\Shiksha\\Reports\\LoginResgistrationSuite\\LoginRegistrationSuite1\\20180624_175343\\1529843085870.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-24 17:54:18 - [TEST_CASE][FAILED] - Test Cases/Registration/Registration: Test Cases/Registration/Registration FAILED because (of) Unable to click on object 'Object Repository/Registration/Page_Registration/a_Sign Up' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="javascript:void(0);"> is not clickable at point (1322.1332702636719,57) because another element <div class="Reglayer-bg"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ND0311119038941', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1948, moz:profile: C:\Users\anurag.gambhir\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4d2b3f8-421f-49cf-8f49-d2f75790b076)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-24 17:53:48 - [TEST_SUITE][FAILED] - LoginRegistrationSuite1: Test Cases/Registration/Registration FAILED because (of) Unable to click on object 'Object Repository/Registration/Page_Registration/a_Sign Up' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="javascript:void(0);"> is not clickable at point (1322.1332702636719,57) because another element <div class="Reglayer-bg"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ND0311119038941', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1948, moz:profile: C:\Users\anurag.gambhir\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4d2b3f8-421f-49cf-8f49-d2f75790b076)]]></system-out>
+      <system-err><![CDATA[2018-06-24 17:53:48 - [TEST_SUITE][FAILED] - LoginRegistrationSuite1: Test Cases/Registration/Registration FAILED because (of) Unable to click on object 'Object Repository/Registration/Page_Registration/a_Sign Up' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="javascript:void(0);"> is not clickable at point (1322.1332702636719,57) because another element <div class="Reglayer-bg"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ND0311119038941', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1948, moz:profile: C:\Users\anurag.gambhir\App..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d4d2b3f8-421f-49cf-8f49-d2f75790b076)]]></system-err>
+   </testsuite>
+</testsuites>

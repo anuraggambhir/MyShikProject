@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ssLayerSch</name>
+   <tag></tag>
+   <elementGuidId>078579e3-8d2b-4880-ba1e-98f2dd3ab679</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @class = 'ssLayerSch']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search City</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ssLayerSch</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;secondLayer_Iqhvwe&quot;)/div[@class=&quot;acc-psnlInfo&quot;]/div[@class=&quot;regtbs clearfix&quot;]/div[1]/div[@class=&quot;overview&quot;]/div[@class=&quot;posrel&quot;]/div[@class=&quot;cusLayer ctmScroll layerHtml&quot;]/div[@class=&quot;crse-layer  t-lyr bt-pos&quot;]/div[@class=&quot;cr-srDiv&quot;]/div[@class=&quot;srch-bx&quot;]/input[@class=&quot;ssLayerSch&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

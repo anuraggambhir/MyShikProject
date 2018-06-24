@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginRegistrationSuite1,Firefox 59.0,,2018-06-24 21:45:24,2018-06-24 21:45:34,10.044s,INCOMPLETE
+,,,,,,
+Test Cases/Login/LoginInvalid,Firefox 59.0,Check for login with invalid credentials,2018-06-24 21:45:25,2018-06-24 21:45:33,7.941s,PASSED
+Start setup action : setupCase,Firefox 59.0,,2018-06-24 21:45:25,2018-06-24 21:45:30,5.282s,PASSED
+click,Firefox 59.0,,2018-06-24 21:45:30,2018-06-24 21:45:31,0.756s,PASSED
+setText,Firefox 59.0,,2018-06-24 21:45:31,2018-06-24 21:45:31,0.352s,PASSED
+setText,Firefox 59.0,,2018-06-24 21:45:31,2018-06-24 21:45:31,0.200s,PASSED
+click,Firefox 59.0,,2018-06-24 21:45:31,2018-06-24 21:45:32,0.388s,PASSED
+click,Firefox 59.0,,2018-06-24 21:45:32,2018-06-24 21:45:32,0.255s,PASSED
+Start tear down : tearDownifPassed,Firefox 59.0,,2018-06-24 21:45:32,2018-06-24 21:45:32,0.017s,PASSED
+Start tear down : tearDownCase,Firefox 59.0,,2018-06-24 21:45:32,2018-06-24 21:45:33,0.629s,PASSED
+,,,,,,
+Test Cases/Registration/Registration,Firefox 59.0,Registration of New User,2018-06-24 21:45:33,2018-06-24 21:45:34,1.555s,FAILED
+openBrowser,Firefox 59.0,,2018-06-24 21:45:33,2018-06-24 21:45:34,0.984s,FAILED
+Start tear down : tearDownifFailed,Firefox 59.0,,2018-06-24 21:45:34,2018-06-24 21:45:34,0.144s,PASSED
