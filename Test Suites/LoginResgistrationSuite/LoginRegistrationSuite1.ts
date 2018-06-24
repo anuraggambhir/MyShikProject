@@ -4,7 +4,7 @@
    <name>LoginRegistrationSuite1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-24T21:45:20</lastRun>
+   <lastRun>2018-06-24T22:33:11</lastRun>
    <mailRecipient>anuraggambhir88@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
